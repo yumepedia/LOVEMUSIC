@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+  color: beige;
+  text-align: center;
+}
+
+.banner{
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0)),url(guitar.jpg);
+    background-size:cover;
+    background-position:center;   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: beige;
+    padding: 0px 30px;
+    border: 0px solid beige;
+    font-size: 18px;
+    float: left;
+      transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color:beige;
+    color:black;
+}
+
+ul li ul{
+    display: none;
+}
+
+.logo img{
+    float:left;
+    width: 230px;
+    height: 60;
+}
+
+nav{
+    position: fixed;
+    width:100%;
+    height: 65px;
+    line-height: 65px;
+    padding: 0px;
+    background-color: black;
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align:center;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  background: rgba(0,0,0,0);
+  color: beige;
+}
+
+.fa-instagram {
+  background: rgba(0,0,0,0);
+  color: beige;
+}
+
+.contact{
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: beige;
+}
+
+.container{
+    transform: translate(-25%, 60%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 30px;
+    display: flex;
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    color: beige;
+    flex-direction: column;
+    font-weight: 300;
+}

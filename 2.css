@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.footer {
+  position:absolute;
+    z-index: 1000;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+  color: beige;
+  text-align: center;
+}
+
+.banner{
+    position: fixed;
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0)),url(guitar.jpg);
+    background-size:cover;
+    background-position:center;   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{   
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: beige;
+    padding: 0px 30px;
+    border: 0px solid beige;
+    font-size: 18px;
+    float: left;
+      transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color:beige;
+    color:black;
+}
+
+ul li ul{
+    display: none;
+}
+
+.logo img{
+    float:left;
+    width: 230px;
+    height: 60px;   
+}
+
+nav{
+    position:absolute;
+    width:100%;
+    height: 65px;
+    line-height: 65px;
+    padding: 0px;
+    background-color: black;
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+    
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align:center;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  background: rgba(0,0,0,0);
+  color: beige;
+}
+
+.fa-instagram {
+  background: rgba(0,0,0,0);
+  color: beige;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {font-family: sans-serif;
+    margin:0;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container{
+  background-color: black;
+  border: 15px solid beige;
+}
+
+.slideshow-container {
+  max-width: 340px;
+  position: relative;
+  margin: auto;
+    z-index: 999;
+    transform: translate(-100%, 30%);
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.3s;
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.card .info{
+    z-index: 3;
+    color: beige;
+    transform: translateY(15px);
+    transition: 0.5s all;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.card .info h1{
+    
+    transform: translate(45%,-800%);
+}
+
+.card .info h2{
+      transform: translate(65%,-1000%);  
+}
+
+.card .info p{
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    transform: translate(240%,-1000%);
+}
+
+.card .info .btn{
+           float: left;
+    transform: translate(610%,-600%);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: beige;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card .info .btn1{
+        float: left;
+    transform: translate(1070%,-600%);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: beige;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
